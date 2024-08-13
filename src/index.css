@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+
+body {
+  background: linear-gradient(135deg, #153677, #4e085f);
+  min-height: 100vh;
+}
+ */
+* {
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+
+.sdf {
+  align-items: center;
+}
+.dfc {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
